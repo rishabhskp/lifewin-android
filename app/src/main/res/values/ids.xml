@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_login_as_user" type="id" />
+    <item name="btn_login_as_chemist" type="id" />
+    <item name="tv_sep" type="id" />
+    <item name="btn_signup_as_chemist" type="id" />
+    <item name="btn_signup_as_user" type="id" />
+    <item name="rl_socilmedia_container" type="id" />
+    <item name="rl_inputf_container" type="id" />
+    <item name="rl_login_container" type="id" />
+    <item name="ll_btn_container" type="id" />
+    <item name="rl_password_container" type="id" />
+    <item name="iv_password" type="id" />
+    <item name="iv_facebook_login" type="id" />
+    <item name="ed_password" type="id" />
+    <item name="iv_back" type="id" />
+    <item name="tv_signup" type="id" />
+    <item name="tv_next" type="id" />
+    <item name="iv_google_login" type="id" />
+
+
+    <item name="mcv_pager" type="id" />
+    <item name="view_holder_pos" type="id"/>
+    <item name="view_holder_tag" type="id"/>
+
+
+</resources>

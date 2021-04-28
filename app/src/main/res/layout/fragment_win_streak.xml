@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_task_done"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="center"
+            android:src="@drawable/selector_tick_button" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="55dp"
+            android:text="@string/txt_yes_i_did_it"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/d_task_item_row" />
+
+        <TextView
+            android:id="@+id/tv_current_overall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="55dp"
+            android:textSize="16sp"
+            android:text="Current : 0 | Overall : 0" />
+    </RelativeLayout>
+
+    <app.lifewin.ui.views.calendar.MaterialCalendarView
+        android:id="@+id/mcv_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_header_view" />
+</RelativeLayout>

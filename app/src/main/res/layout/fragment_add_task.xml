@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent">
+
+    <app.lifewin.ui.views.CustomEditText
+        android:id="@+id/ed_add_task"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_view_height"
+        android:background="@color/color_sep_view"
+        android:gravity="center_vertical"
+        android:hint="@string/hint_new_task"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/d_view_text_size" />
+
+    <app.lifewin.ui.views.TaskDragNDropListView
+        android:id="@+id/list_view_customizer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:transcriptMode="disabled"
+
+        android:cacheColorHint="@color/color_transparent"
+        android:groupIndicator="@null"
+        android:childDivider="@color/color_transparent"
+        android:layout_below="@+id/ed_add_task"/>
+
+</RelativeLayout>

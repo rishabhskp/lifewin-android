@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/rl_parent"
+    android:background="@color/color_semi_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/color_dialog_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHourlyRateTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txt_edit_task"
+            android:textColor="@color/color_app_green"
+
+            android:textSize="@dimen/d_dialog_header_text_size"
+            android:textStyle="bold"
+
+            />
+
+
+        <app.lifewin.ui.views.CustomEditText
+            android:id="@+id/ed_task_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFirstDayTit"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:maxLines="3"
+            android:background="@color/switch_thumb_normal_material_light"
+            android:hint="Task Name"
+            android:padding="10dp"
+            android:textColor="@color/color_black"
+            android:textSize="20dp" />
+
+        <app.lifewin.ui.views.CustomEditText
+            android:id="@+id/ed_task_points"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_task_title"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/switch_thumb_normal_material_light"
+            android:hint="Points"
+            android:padding="10dp"
+            android:textColor="@color/color_black"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color_app_green"
+            android:text="@string/txt_ok"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/d_bottom_bar_text_size" />
+
+    </LinearLayout>
+</RelativeLayout>

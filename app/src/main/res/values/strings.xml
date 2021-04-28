@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">LifeWin</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="err_cancel">Cancel</string>
+    <string name="err_settings">Settings</string>
+    <string name="facebook_app_id">855024461248162</string>
+
+    <string name="txt_preparing_card">Prepair Sdcard</string>
+    <string name="txt_no_storage_card">No Sdcard available</string>
+    <string name="txt_not_enough_space">Not enough space available in sdcard</string>
+    <string name="txt_saving_image">Save Image</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_save">Save</string>
+
+    <string name="txt_login">LOGIN</string>
+    <string name="hint_enter_password">Enter your password</string>
+    <string name="hint_login_enter_password">Enter your password</string>
+    <string name="txt_forgot_password">FORGOT PASSWORD</string>
+    <string name="hint_login_email_id">Enter your email id</string>
+    <string name="txt_email">EMAIL</string>
+    <string name="msg_plz_wait">Please wait</string>
+    <string name="err_internet_connection_error">Please check your internet connection and try again.</string>
+    <string name="val_login_email_empty">Enter your email address.</string>
+    <string name="val_login_email_invalid">Enter email is not valid.</string>
+    <string name="val_login_password_empty">Enter your password.</string>
+    <string name="val_login_password_min_length">Enter at least 4 characters password.</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_registration">Registration</string>
+    <string name="hint_user_name">Enter name</string>
+    <string name="val_name_empty">Enter your name.</string>
+    <string name="hint_phone_number">Enter phone number</string>
+    <string name="hint_address">Enter your address</string>
+    <string name="val_phone_empty">Please enter phone number.</string>
+    <string name="val_address_empty">Please enter your address.</string>
+
+    <string name="txt_signup_gallery">Gallery</string>
+    <string name="txt_signup_camera">Camera</string>
+    <string name="txt_signup_header_title">Select a image from</string>
+    <string name="txt_signup">SIGN UP</string>
+    <string name="txt_next">NEXT</string>
+    <string name="txt_password">PASSWORD</string>
+    <string name="txt_name">NAME</string>
+    <string name="txt_tasks">TASKS</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="txt_first_day">FIRST DAY</string>
+    <string name="txt_monday">Monday</string>
+    <string name="txt_hourly_rate">HOURLY RATE</string>
+    <string name="txt_10">10</string>
+    <string name="txt_pomodoro_meter">POMODORO TIMER</string>
+    <string name="txt_25m_5m">25m/5m</string>
+    <string name="txt_profile">PROFILE</string>
+    <string name="txt_45m_15m">45m/15m</string>
+    <string name="txt_50m_10m">50m/10m</string>
+    <string name="txt_sunday">Sunday</string>
+    <string name="txt_saturday">Saturday</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_success_password_send">Password sent on your email address.</string>
+    <string name="txt_success_signup">Your account has been created successfuly. Please verify your email.</string>
+    <string name="txt_err_input_hrate">Please enter hourly rate</string>
+    <string name="hint_enter_name">Enter your name</string>
+
+    /////////
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="main_activity_title_prefix">"GCM: "</string>
+    <string name="txt_settings">SETTINGS</string>
+    <string name="txt_goals">GOALS</string>
+    <string name="txt_habits">HABITS</string>
+    <string name="txt_win_streak">WIN STREAK</string>
+    <string name="txt_timer">TIMER</string>
+    <string name="txt_overview">OVERVIEW</string>
+    <string name="txt_help">HELP</string>
+    <string name="txt_under_devlopement">Under Developement</string>
+    <string name="txt_signout">SIGN OUT</string>
+    <string name="val_forgot_password_email">No user found with email </string>
+    <string name="val_login_credential">Invalid login parameters.</string>
+    <string name="val_signup_email">This email id already taken.</string>
+    <string name="hint_add_points">Points</string>
+    <string name="txt_2">2</string>
+    <string name="txt_5">5</string>
+    <string name="txt_cap_cancel">CANCEL</string>
+    <string name="hint_new_task">New task</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_search">Search</string>
+    <string name="val_enter_points">Enter points.</string>
+    <string name="txt_today">TODAY</string>
+    <string name="txt_tomorrow">TOMORROW</string>
+    <string name="txt_this_week">THIS WEEK</string>
+    <string name="txt_later">LATER</string>
+    <string name="txt_complete">COMPLETE</string>
+    <string name="hint_new_goals">New goal</string>
+    <string name="hint_new_habit">Add habit</string>
+    <string name="txt_future">FUTURE</string>
+    <string name="txt_present">PRESENT</string>
+    <string name="txt_confirm_password">CONFIRM PASSWORD</string>
+    <string name="hint_enter_new_password">New password</string>
+    <string name="hint_re_enter_password">Re-enter new password</string>
+    <string name="val_password_mismatch">Your confirm password is not correct.</string>
+    <string name="val_reenter_password_empty">Enter your confirm password.</string>
+    <string name="msg_verify_email_address">Verify your email address.</string>
+    <string name="err_email_not_verify">Kindly verify your email address.</string>
+    <string name="err_email_not_found">Email not found.</string>
+    <string name="txt_change_password">CHANGE PASSWORD</string>
+    <string name="txt_current_password">CURRENT PASSWORD</string>
+    <string name="txt_new_password">NEW PASSWORD</string>
+    <string name="txt_done">Done</string>
+    <string name="val_incorroect_cpassword">Your current password is wrong.</string>
+    <string name="val_empty_new_password">Enter new password</string>
+    <string name="txt_success_password_change">Password change successfully.</string>
+    <string name="txt_edit_task">Edit Task</string>
+    <string name="txt_err_input_task">Enter task name</string>
+    <string name="txt_err_input_task_points">Enter task points</string>
+    <string name="txt_complete_task">COMPLETED TASK</string>
+    <string name="txt_edit_goal">Edit Goal</string>
+    <string name="txt_err_input_goal">Enter goal name</string>
+    <string name="err_enddate_before_startdate">End date can not before start date.</string>
+    <string name="err_enddate_before_today">Due date can not before today.</string>
+    <string name="txt_yes_i_did_it">Yes, I did it!</string>
+
+</resources>

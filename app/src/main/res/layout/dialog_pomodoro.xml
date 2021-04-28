@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent"
+    android:background="@color/color_semi_black"
+    android:layout_gravity="center"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/color_dialog_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPomodoroTit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="25dp"
+            android:text="@string/txt_pomodoro_meter"
+            android:textStyle="bold"
+            android:textColor="@color/accent_material_light"
+            android:textSize="@dimen/d_dialog_header_text_size"
+          />
+
+        <TextView
+            android:id="@+id/txtPomodoro1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtFirstDayTit"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="@string/txt_25m_5m"
+            android:textColor="@color/switch_thumb_normal_material_light"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtPomodoro2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtFirstDayTit"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="@string/txt_45m_15m"
+            android:textColor="@color/switch_thumb_normal_material_light"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtPomodoro3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtFirstDayTit"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="@string/txt_50m_10m"
+            android:textColor="@color/switch_thumb_normal_material_light"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>

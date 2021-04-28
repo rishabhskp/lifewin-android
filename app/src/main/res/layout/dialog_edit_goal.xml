@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/color_semi_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/color_dialog_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHourlyRateTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txt_edit_goal"
+            android:textColor="@color/color_app_green"
+
+            android:textSize="@dimen/d_dialog_header_text_size"
+            android:textStyle="bold"
+
+            />
+
+
+        <app.lifewin.ui.views.CustomEditText
+            android:id="@+id/ed_goal_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFirstDayTit"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/switch_thumb_normal_material_light"
+            android:hint="Goal Name"
+            android:maxLines="3"
+            android:padding="10dp"
+            android:textColor="@color/color_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_start_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:text="Start Date : 10/18/2015"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_end_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Due Date : 10/28/2015"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color_app_green"
+            android:text="@string/txt_ok"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/d_bottom_bar_text_size" />
+
+    </LinearLayout>
+</RelativeLayout>

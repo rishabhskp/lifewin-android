@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\libs\Parse-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\Parse-1.9.4-b2344644d565166869007b5d819576a9f14e1d0f.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-6b71200497e73621c137716f3f6a11138599ba8c.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\libs\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-c4c8c47699c1d276190cecc7184e111bde0b923b.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\me.grantland\autofittextview\0.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-b1b6e3c8c0513fb4e866a7ebc9f9e8ad74756d6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-b9b8049842b0f99511531e852b4391078ea238fd.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-e36f82f744a711690184c99e7c1fac71865c6568.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\uk.co.chrisjenx\calligraphy\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-8f300dacdcff7d366fa048493e2d8be7b77d05eb.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-623ccd187caf842ad2ef92c818579fb5ab26a2d8.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-b28e8153382c7ff260ec96b7181da188c6733a06.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-c56431d8fee7a40849c3425ed7a5ddbca80553b2.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio\SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-534ea9d600e9608e450e0ae0a1600b74c2667600.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\picasso-2.5.0-0dc863027b42dc05ee1c1e55be3ee0eb2c6d0bbd.jar" />
+    </item>
+    <item
+        jar="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="152e1df65212df23a4b5dba0e819e63bca93192c">
+        <dex dex="D:\Vivek_Data\R\LifeWin\LifeWin\app\build\intermediates\pre-dexed\debug\classes-15af36b6265e05729b6b9b46d6e61415e32db7dd.jar" />
+    </item>
+
+</items>
